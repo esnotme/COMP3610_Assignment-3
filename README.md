@@ -1,4 +1,17 @@
 # COMP3610_Assignment-3
+This project is an analytics and evaluation pipeline for NYC taxi data and transportation policy documents. It combines structured trip data with regulatory texts to answer questions, classify queries, and assess semantic accuracy of generated responses. The workflow includes:
+
+Query routing between data and documents (or both).
+
+Semantic evaluation using sentence embeddings and cosine similarity.
+
+Error analysis to refine retrieval and generation.
+
+Notebook execution in VS Code with a reproducible environment.
+
+The notebook demonstrates how to integrate LangChain, SentenceTransformers, and custom prompts to build a retrieval‑QA system that can handle both numeric analytics and policy/regulation queries.
+
+
 Project Setup
 Follow these steps to run the notebook locally:
 
