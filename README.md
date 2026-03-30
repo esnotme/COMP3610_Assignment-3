@@ -16,31 +16,26 @@ Project Setup
 Follow these steps to run the notebook locally:
 
 1. Clone the repository
-bash
-git clone https://github.com/<your-username>/<your-repo>.git
-cd <your-repo>
+    cd downloads
+   git clone https://github.com/esnotme/COMP3610_Assignment-3.git
 2. Open in VS Code
-Launch VS Code.
+   Launch VS Code.
 
 Open the cloned folder (File → Open Folder).
 
 3. Create a virtual environment
-bash
 python -m venv venv
 Activate it:
 
 Windows (PowerShell):
 
-bash
 venv\Scripts\activate
 Mac/Linux:
 
-bash
 source venv/bin/activate
 4. Install dependencies
 Make sure you have a requirements.txt file in the repo. Then run:
 
-bash
 pip install -r requirements.txt
 5. API Key setup
 Before running the notebook:
